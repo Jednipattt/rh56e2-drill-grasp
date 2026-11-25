@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+# written by the recorder when you calibrate the load cell; machine-specific
+acquisition/loadcell_calibration.json
+# new recordings go here when you run the recorder from acquisition/
+acquisition/data_logs/

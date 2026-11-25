@@ -1,0 +1,20 @@
+{
+  "_note": "Boards are found by USB serial number, never by COM port: both MOTION 2350 Pro boards are 2e8a:0005 and COM numbers swap after replugging. Run `py ae_board2.py --list` to see the serials of the boards plugged in now.",
+  "board1": {
+    "role": "Board 1: linear guide + HX711 load cell (snapmarker_linear_module.py)",
+    "usb_serial": "00385CAF843560CD",
+    "required_files": ["snapmarker_linear_module.py"]
+  },
+  "board2": {
+    "role": "Board 2: AE sampler (old AE firmware main.py; RAM sampler uploaded by the host)",
+    "usb_serial": "E242B18BAB30B00A",
+    "required_files": ["main.py", "ae_sampler.py", "ae_stream.py", "ae_config.py"],
+    "forbidden_files": ["snapmarker_linear_module.py"]
+  },
+  "ae_channels": {
+    "ch0": {"pin": "GP26", "adc_input": 0, "old_label": "Ambient (AE01)",
+            "mounting": "UNSPECIFIED - fill in where AE01 is mounted"},
+    "ch1": {"pin": "GP27", "adc_input": 1, "old_label": "Machine (AE02)",
+            "mounting": "UNSPECIFIED - fill in where AE02 is mounted"}
+  }
+}

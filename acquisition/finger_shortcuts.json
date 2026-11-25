@@ -1,0 +1,298 @@
+{
+  "d1": [
+    "group",
+    "thumb_rot",
+    "300",
+    "thumb",
+    "550"
+  ],
+  "d2": [
+    "group",
+    "middle",
+    "0",
+    "ring",
+    "0",
+    "little",
+    "0"
+  ],
+  "d-1": [
+    "group",
+    "middle",
+    "1000",
+    "ring",
+    "1000",
+    "little",
+    "1000"
+  ],
+  "d-0": [
+    "index",
+    "1000"
+  ],
+  "d4": [
+    "thumb",
+    "200"
+  ],
+  "d3-2": [
+    "index",
+    "150"
+  ],
+  "d3-1": [
+    "index",
+    "200"
+  ],
+  "d3-3": [
+    "index",
+    "100"
+  ],
+  "d3-4": [
+    "index",
+    "50"
+  ],
+  "r": [
+    "routine",
+    "run",
+    "ring",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "15",
+    "10"
+  ],
+  "m": [
+    "routine",
+    "run",
+    "middle",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "10",
+    "10"
+  ],
+  "l": [
+    "routine",
+    "run",
+    "little",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "15",
+    "10"
+  ],
+  "d1-2": [
+    "group",
+    "thumb_rot",
+    "200",
+    "thumb",
+    "550"
+  ],
+  "d3-0": [
+    "index",
+    "250"
+  ],
+  "e3": [
+    "group",
+    "middle",
+    "0",
+    "ring",
+    "0"
+  ],
+  "e3-2": [
+    "group",
+    "middle",
+    "0",
+    "little",
+    "0"
+  ],
+  "e3-3": [
+    "group",
+    "ring",
+    "0",
+    "little",
+    "0"
+  ],
+  "z": [
+    "group",
+    "middle",
+    "500",
+    "ring",
+    "500",
+    "little",
+    "500",
+    "index",
+    "500"
+  ],
+  "zz": [
+    "group",
+    "middle",
+    "400",
+    "ring",
+    "400",
+    "little",
+    "400",
+    "index",
+    "400"
+  ],
+  "zzz": [
+    "group",
+    "middle",
+    "300",
+    "ring",
+    "300",
+    "little",
+    "300",
+    "index",
+    "300"
+  ],
+  "zzzz": [
+    "group",
+    "middle",
+    "200",
+    "ring",
+    "200",
+    "little",
+    "200",
+    "index",
+    "200"
+  ],
+  "yyy": [
+    "group",
+    "middle",
+    "600",
+    "ring",
+    "600",
+    "little",
+    "600",
+    "index",
+    "600"
+  ],
+  "yy": [
+    "group",
+    "middle",
+    "700",
+    "ring",
+    "700",
+    "little",
+    "700",
+    "index",
+    "700"
+  ],
+  "d3-00": [
+    "index",
+    "300"
+  ],
+  "m106": [
+    "guide",
+    "move",
+    "106",
+    "10"
+  ],
+  "m15": [
+    "guide",
+    "move",
+    "15",
+    "10"
+  ],
+  "ml": [
+    "routine",
+    "run",
+    "middle",
+    "0",
+    ";",
+    "little",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "10",
+    "10"
+  ],
+  "mr": [
+    "routine",
+    "run",
+    "middle",
+    "0",
+    ";",
+    "ring",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "10",
+    "10"
+  ],
+  "mlr": [
+    "routine",
+    "run",
+    "middle",
+    "0",
+    ";",
+    "little",
+    "0",
+    ";",
+    "ring",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "10",
+    "10"
+  ],
+  "rl": [
+    "routine",
+    "run",
+    "ring",
+    "0",
+    ";",
+    "little",
+    "0",
+    ";",
+    "wait",
+    "5",
+    ";",
+    "guide",
+    "move",
+    "15",
+    "10"
+  ],
+  "mmm": [
+    "middle",
+    "0"
+  ],
+  "d-01": [
+    "index",
+    "500"
+  ],
+  "j11": [
+    "guide",
+    "jog",
+    "11",
+    "3"
+  ],
+  "j11-": [
+    "guide",
+    "jog",
+    "-11",
+    "3"
+  ]
+}

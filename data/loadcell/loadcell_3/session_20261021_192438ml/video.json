@@ -1,0 +1,9 @@
+{
+  "video": "video.mp4",
+  "frames_csv": "video.frames.csv",
+  "start_timestamp": 1792585478.9492602,
+  "fps": 30.0,
+  "width": 640,
+  "height": 480,
+  "clock": "time.time() (same as HDF5 /time/timestamp)"
+}

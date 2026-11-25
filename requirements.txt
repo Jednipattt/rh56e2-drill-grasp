@@ -1,0 +1,13 @@
+# Python 3.10 (versions as installed on the recording PC)
+
+pymodbus==3.14.0        # RH56E2 hand over Modbus TCP
+pyserial==3.5           # linear guide + load cell Pico over USB serial
+numpy==2.2.6
+h5py==3.16.0            # session logs (hand.h5)
+matplotlib==3.10.9      # plots saved with each session
+
+# optional: the recorder switches these features off when they are missing
+opencv-python==5.0.0.93 # webcam recording
+sounddevice==0.5.6      # microphone recording
+
+# firmware/linear_guide_pico/ runs on the Pico under MicroPython, not on the PC.
